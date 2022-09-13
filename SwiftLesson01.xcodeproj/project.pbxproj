@@ -17,6 +17,7 @@
 		623E316D28D0B54400C58BA1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E314328D0B54100C58BA1 /* ContentView.swift */; };
 		623E316E28D0B54400C58BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623E314428D0B54400C58BA1 /* Assets.xcassets */; };
 		623E316F28D0B54400C58BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 623E314428D0B54400C58BA1 /* Assets.xcassets */; };
+		623E318028D0BFAC00C58BA1 /* Logo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623E317F28D0BFAC00C58BA1 /* Logo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		623E316228D0B54400C58BA1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		623E316628D0B54400C58BA1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		623E316828D0B54400C58BA1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		623E317F28D0BFAC00C58BA1 /* Logo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		623E314128D0B54100C58BA1 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				623E317E28D0BF9600C58BA1 /* components */,
 				623E314228D0B54100C58BA1 /* SwiftLesson01App.swift */,
 				623E314328D0B54100C58BA1 /* ContentView.swift */,
 				623E314428D0B54400C58BA1 /* Assets.xcassets */,
@@ -139,6 +142,14 @@
 				623E316828D0B54400C58BA1 /* Tests_macOSLaunchTests.swift */,
 			);
 			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		623E317E28D0BF9600C58BA1 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				623E317F28D0BFAC00C58BA1 /* Logo.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				623E316C28D0B54400C58BA1 /* ContentView.swift in Sources */,
+				623E318028D0BFAC00C58BA1 /* Logo.swift in Sources */,
 				623E316A28D0B54400C58BA1 /* SwiftLesson01App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -22,23 +22,6 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
-struct Logo: View {
-    var body: some View {
-        VStack{
-            Image(systemName: "hand.raised")
-                .resizable()
-                .frame(width: 100, height: 120, alignment: Alignment.top)
-                .background(Color.black)
-                .foregroundColor(Color.white)
-                .padding()
-                .background(Color.black)
-                .cornerRadius(20)
-            Text("Hello SwiftUI")
-        }
-        
-    }
-}
-
 
 struct FormBox: View {
     @State var username: String = ""
