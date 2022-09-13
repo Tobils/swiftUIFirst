@@ -40,6 +40,7 @@ struct FormBox: View {
             
             Button(action: {print("Button is hit")}){
                 HStack(){
+                    Spacer()
                     Text("Sign In")
                     Spacer()
                 }
